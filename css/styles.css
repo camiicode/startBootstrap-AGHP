@@ -11853,3 +11853,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   position: absolute;
   left: 10px;
 }
+
+.card-price-element {
+  min-height: 37vh;
+}
