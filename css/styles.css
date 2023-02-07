@@ -11834,3 +11834,22 @@ section#contact form#contactForm :-ms-input-placeholder {
   max-height: 160px !important;
   object-fit: cover;
 }
+
+.card-list {
+  list-style: none;
+  position: relative;
+}
+
+.card-subtitle {
+  font-size: .70rem;
+}
+
+.card-list li {
+  font-size: 0.80rem;
+}
+
+.card-list li:before {
+  content: '✓';
+  position: absolute;
+  left: 10px;
+}
