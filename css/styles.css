@@ -11867,3 +11867,12 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .ws-nowrap { white-space: nowrap; }
+
+.team-member img {
+  transform: scale(1);
+  transition: ease .3s all;
+}
+
+.team-member:hover img {
+  transform: scale(1.1);
+}
